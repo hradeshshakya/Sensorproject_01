@@ -1,0 +1,113 @@
+[2024-09-27 16:21:15,791] 224 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.153:5000
+[2024-09-27 16:21:15,791] 224 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-09-27 16:21:15,793] 224 werkzeug - INFO -  * Restarting with stat
+[2024-09-27 16:21:18,734] 224 werkzeug - WARNING -  * Debugger is active!
+[2024-09-27 16:21:18,741] 224 werkzeug - INFO -  * Debugger PIN: 360-516-762
+[2024-09-27 16:22:10,782] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:22:10] "GET / HTTP/1.1" 200 -
+[2024-09-27 16:22:10,895] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:22:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-09-27 16:22:44,803] 68 root - INFO - Entered initiated data ingestion method of data integration class
+[2024-09-27 16:22:44,803] 43 root - INFO - Exporting data from MongoDB
+[2024-09-27 16:22:47,881] 53 root - INFO - Saving exported data into feature store file path : artifacts
+[2024-09-27 16:22:47,956] 74 root - INFO - Got the data from mongoDB
+[2024-09-27 16:22:47,958] 76 root - INFO - exited initiated_data_ingestion method of data_ingestion class
+[2024-09-27 16:22:48,000] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:22:48] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2024-09-27 16:22:48,015] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:22:48] "GET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-09-27 16:22:48,331] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:22:48] "GET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-09-27 16:22:48,799] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:22:48] "GET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-09-27 16:22:49,060] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:22:49] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-27 16:25:49,623] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\kushw\\Desktop\\Sensorproject\\app.py', reloading
+[2024-09-27 16:25:50,115] 224 werkzeug - INFO -  * Restarting with stat
+[2024-09-27 16:25:52,994] 224 werkzeug - WARNING -  * Debugger is active!
+[2024-09-27 16:25:53,001] 224 werkzeug - INFO -  * Debugger PIN: 360-516-762
+[2024-09-27 16:28:32,604] 224 werkzeug - INFO -  * Detected change in 'c:\\users\\kushw\\desktop\\sensorproject\\src\\pipeline\\training_pipeline.py', reloading
+[2024-09-27 16:28:32,865] 224 werkzeug - INFO -  * Restarting with stat
+[2024-09-27 16:28:35,783] 224 werkzeug - WARNING -  * Debugger is active!
+[2024-09-27 16:28:35,790] 224 werkzeug - INFO -  * Debugger PIN: 360-516-762
+[2024-09-27 16:29:32,070] 68 root - INFO - Entered initiated data ingestion method of data integration class
+[2024-09-27 16:29:32,071] 43 root - INFO - Exporting data from MongoDB
+[2024-09-27 16:29:36,485] 53 root - INFO - Saving exported data into feature store file path : artifacts
+[2024-09-27 16:29:36,529] 74 root - INFO - Got the data from mongoDB
+[2024-09-27 16:29:36,530] 76 root - INFO - exited initiated_data_ingestion method of data_ingestion class
+[2024-09-27 16:29:36,563] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:29:36] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2024-09-27 16:29:36,573] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:29:36] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-27 16:29:36,574] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:29:36] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-27 16:29:36,892] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:29:36] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-27 16:29:37,159] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:29:37] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-27 16:29:42,501] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:29:42] "GET / HTTP/1.1" 200 -
+[2024-09-27 16:29:47,981] 68 root - INFO - Entered initiated data ingestion method of data integration class
+[2024-09-27 16:29:47,981] 43 root - INFO - Exporting data from MongoDB
+[2024-09-27 16:29:49,511] 53 root - INFO - Saving exported data into feature store file path : artifacts
+[2024-09-27 16:29:49,551] 74 root - INFO - Got the data from mongoDB
+[2024-09-27 16:29:49,551] 76 root - INFO - exited initiated_data_ingestion method of data_ingestion class
+[2024-09-27 16:29:49,563] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:29:49] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2024-09-27 16:29:49,574] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:29:49] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-27 16:29:49,883] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:29:49] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-27 16:29:50,210] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:29:50] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-27 16:34:40,627] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\kushw\\Desktop\\Sensorproject\\app.py', reloading
+[2024-09-27 16:34:40,861] 224 werkzeug - INFO -  * Restarting with stat
+[2024-09-27 16:35:51,116] 224 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.153:5000
+[2024-09-27 16:35:51,116] 224 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-09-27 16:35:51,119] 224 werkzeug - INFO -  * Restarting with stat
+[2024-09-27 16:35:52,920] 224 werkzeug - WARNING -  * Debugger is active!
+[2024-09-27 16:35:52,926] 224 werkzeug - INFO -  * Debugger PIN: 360-516-762
+[2024-09-27 16:36:00,525] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:36:00] "GET / HTTP/1.1" 200 -
+[2024-09-27 16:36:06,080] 68 root - INFO - Entered initiated data ingestion method of data integration class
+[2024-09-27 16:36:06,080] 43 root - INFO - Exporting data from MongoDB
+[2024-09-27 16:36:07,988] 53 root - INFO - Saving exported data into feature store file path : artifacts
+[2024-09-27 16:36:08,029] 74 root - INFO - Got the data from mongoDB
+[2024-09-27 16:36:08,029] 76 root - INFO - exited initiated_data_ingestion method of data_ingestion class
+[2024-09-27 16:36:08,042] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:36:08] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2024-09-27 16:36:08,054] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:36:08] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-27 16:36:08,358] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:36:08] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-27 16:36:08,670] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:36:08] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-27 16:38:53,249] 224 werkzeug - INFO -  * Detected change in 'c:\\users\\kushw\\desktop\\sensorproject\\src\\pipeline\\train_pipeline.py', reloading
+[2024-09-27 16:38:53,473] 224 werkzeug - INFO -  * Restarting with stat
+[2024-09-27 16:38:55,269] 224 werkzeug - WARNING -  * Debugger is active!
+[2024-09-27 16:38:55,273] 224 werkzeug - INFO -  * Debugger PIN: 360-516-762
+[2024-09-27 16:39:00,713] 68 root - INFO - Entered initiated data ingestion method of data integration class
+[2024-09-27 16:39:00,713] 43 root - INFO - Exporting data from MongoDB
+[2024-09-27 16:39:02,672] 53 root - INFO - Saving exported data into feature store file path : artifacts
+[2024-09-27 16:39:02,715] 74 root - INFO - Got the data from mongoDB
+[2024-09-27 16:39:02,715] 76 root - INFO - exited initiated_data_ingestion method of data_ingestion class
+[2024-09-27 16:39:02,715] 73 root - INFO - Entered initiated data transformation method of data transformation class
+[2024-09-27 16:39:02,863] 50 root - INFO - Entered the save_object method of MainUtils class
+[2024-09-27 16:39:02,863] 58 root - INFO - Exited the save_object method of MainUtils class
+[2024-09-27 16:39:02,868] 190 root - INFO - Splitting training and testing input and target feature
+[2024-09-27 16:39:02,868] 204 root - INFO - Extracting model config file path
+[2024-09-27 16:39:02,868] 216 root - INFO - Extracting model config file path
+[2024-09-27 16:39:40,169] 261 root - INFO - Best found model on both training and testing dataset
+[2024-09-27 16:39:40,169] 268 root - INFO - Saving model at path: artifacts\model.pkl
+[2024-09-27 16:39:40,169] 50 root - INFO - Entered the save_object method of MainUtils class
+[2024-09-27 16:39:40,174] 58 root - INFO - Exited the save_object method of MainUtils class
+[2024-09-27 16:39:40,175] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:39:40] "GET /train HTTP/1.1" 200 -
+[2024-09-27 16:40:43,862] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:40:43] "GET /predict HTTP/1.1" 200 -
+[2024-09-27 16:40:43,905] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:40:43] "GET /static/css/style.css HTTP/1.1" 200 -
+[2024-09-27 16:40:44,126] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:40:44] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[2024-09-27 16:57:48,602] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:57:48] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-09-27 16:57:48,614] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:57:48] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-09-27 16:57:48,764] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:57:48] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-09-27 16:57:49,093] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:57:49] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-09-27 16:57:49,358] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 16:57:49] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-27 17:00:38,227] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 17:00:38] "GET /predict HTTP/1.1" 200 -
+[2024-09-27 17:00:38,257] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 17:00:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2024-09-27 17:00:38,492] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 17:00:38] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[2024-09-27 17:01:17,703] 80 root - INFO - Predictions Completed.
+[2024-09-27 17:01:17,703] 51 root - INFO - prediction completed. Downloading prediction file.
+[2024-09-27 17:01:17,704] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 17:01:17] "POST /predict HTTP/1.1" 200 -
+[2024-09-27 17:03:05,118] 224 werkzeug - INFO -  * Detected change in 'c:\\users\\kushw\\desktop\\sensorproject\\src\\pipeline\\predict_pipeline.py', reloading
+[2024-09-27 17:03:05,416] 224 werkzeug - INFO -  * Restarting with stat
+[2024-09-27 17:03:07,467] 224 werkzeug - WARNING -  * Debugger is active!
+[2024-09-27 17:03:07,472] 224 werkzeug - INFO -  * Debugger PIN: 360-516-762
+[2024-09-27 17:03:14,414] 80 root - INFO - Predictions Completed.
+[2024-09-27 17:03:14,414] 51 root - INFO - prediction completed. Downloading prediction file.
+[2024-09-27 17:03:14,415] 224 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 17:03:14] "POST /predict HTTP/1.1" 200 -
+[2024-09-27 17:04:10,665] 224 werkzeug - INFO -  * Detected change in 'c:\\users\\kushw\\desktop\\sensorproject\\src\\pipeline\\predict_pipeline.py', reloading
+[2024-09-27 17:04:10,877] 224 werkzeug - INFO -  * Restarting with stat
+[2024-09-27 17:04:12,754] 224 werkzeug - WARNING -  * Debugger is active!
+[2024-09-27 17:04:12,759] 224 werkzeug - INFO -  * Debugger PIN: 360-516-762
